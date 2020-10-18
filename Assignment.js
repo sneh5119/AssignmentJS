@@ -27,7 +27,7 @@ document.getElementById("demo").innerHTML="The number of pairs : "+count;
 
     // function ccc(arr,n){
    
-
+//Solution with input array
 var arr=[ 10, 10, 10, 10, 20, 30, 30, 30, 30, 30, 30, 30, 40, 40, 40, 40, 40 ]
 
 
