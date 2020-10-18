@@ -28,3 +28,25 @@ document.getElementById("demo").innerHTML="The number of pairs : "+count;
     // function ccc(arr,n){
    
 
+var arr=[ 10, 10, 10, 10, 20, 30, 30, 30, 30, 30, 30, 30, 40, 40, 40, 40, 40 ]
+
+
+function countPair(arr){
+  
+  let count=0;
+
+  for(let i=0;i<arr.length;i++){
+      if(arr[i]===arr[i+1]){
+         count++;
+         i++;
+      }
+  }
+
+
+// console.log(count);
+// console.log(arr.length);
+return count;
+}
+
+countPair(arr)
+
